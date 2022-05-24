@@ -1,0 +1,25 @@
+.pink {
+    background-color: rgb(255, 150, 150);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* This works
+.pink.cooler {
+    font-size: 24px;
+}
+*/
+
+.cooler {
+    font-size: 24px;
+}
+
+#one {
+    color: hsl(240, 75%, 50%);
+    font-size: 36px;
+}
+
+#another {
+    background-color: #00ff88;
+    font-size: 24px;
+    font-weight: bold;
+}
