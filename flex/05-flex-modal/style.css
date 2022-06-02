@@ -22,6 +22,24 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.dialog-container {
+  display: flex;
+  padding: 2vw;
+  gap: 10px;
+}
+
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dialog-titlebar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -33,6 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
 }
 
 .close-button {
@@ -46,6 +65,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
@@ -63,4 +83,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 18px;
 }
