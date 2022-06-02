@@ -24,8 +24,8 @@ body {
 
 .dialog-container {
   display: flex;
-  padding: 2vw;
-  gap: 10px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .dialog-content {
