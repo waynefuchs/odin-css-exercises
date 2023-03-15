@@ -8,6 +8,10 @@
   font-family: Arial, sans-serif;
 }
 
+#transition-container > button {
+  transition: transform 0.1s ease-in-out;
+}
+
 #transition-container > button:hover {
   transform: scale(1.2);
 }
@@ -20,5 +24,4 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
-  transition-duration: 0.1s;
 }
